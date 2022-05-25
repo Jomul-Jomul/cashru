@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">cashru</string>
+    <string name="btnlogout">로그아웃</string>
+    <string name="btncouponnum">등록</string>
+    <string name="btnmanual">이전</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/optionimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/roundcorner"
+                android:src="@drawable/optionimagebutton"
+                />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="내 가입정보"/>
+                <EditText
+                    android:id="@+id/optionname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="이름"
+                    android:layout_gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/optionname2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="별명"
+                    android:layout_gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/optionpoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="총 적립 포인트"
+                    android:layout_gravity="center_horizontal"/>
+
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:text="설정"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="첫 화면에서 앱 실행"
+            android:textSize="25dp"/>
+        <Switch
+            android:id="@+id/optionswitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="알림 설정"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btnalarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="혜택"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="쿠폰 등록"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btncoupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="친구 초대"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btniof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="도움"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="공지 사항"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btnnotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="캐시루 이용설명서"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btninstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="서비스 이용약관"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/btnservice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<Button
+    android:id="@+id/btnlogout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff0000"
+    android:text="@string/btnlogout"/>
+
+
+</LinearLayout>
