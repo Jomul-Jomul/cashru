@@ -20,7 +20,8 @@ class alarmActivity: Activity() {
 
         eventswitch.setOnCheckedChangeListener { compoundButton, isChecked ->
             if(isChecked){
-                // 이벤트 스위치 ON 일때
+                // 이벤트 스위치 ON 일
+            // 때
             }
             else {
                 // 이베트 스위치 off 일때

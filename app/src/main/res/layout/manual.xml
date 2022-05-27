@@ -35,7 +35,7 @@
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="캐시루 기본 이용방법"
+            android:text="캐시루 기본 이용방법1"
             android:textSize="30dp"
             android:textStyle="bold"
             android:textColor="@color/black"
@@ -51,11 +51,81 @@
             android:layout_width="318dp"
             android:layout_height="683dp"
             android:layout_gravity="center"
-            android:src="@drawable/manual1"></ImageView>
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/manual1"></ImageView> //캐시루 홈화면
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캐시루 기본 이용방법2"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"></TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="게시판을 누르고 상세정보를 보면 적립금이 들어와요!"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="318dp"
+            android:layout_height="683dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/manual1"></ImageView>  // 캐시루 메인화면
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캐시루 기본 이용방법3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"></TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="퀴즈를 맞추면 적립금이 들어와요!"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="318dp"
+            android:layout_height="683dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/manual1"></ImageView>  // 퀴즈 화면
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캐시루 기본 이용방법4"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"></TextView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="캐시 적립 전환 방법"
+            android:textStyle="bold"></TextView>  // 캐시 전환 방법
+
+        <ImageView
+            android:layout_width="318dp"
+            android:layout_height="683dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:src="@drawable/manual1"></ImageView>  // 캐시 전환 방법법
 
 
 
 
-        </LinearLayout>
+    </LinearLayout>
 
 </ScrollView>
