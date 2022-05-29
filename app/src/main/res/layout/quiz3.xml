@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img_Quiz3"
+            android:src="@drawable/quiz3"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서해안 지역의 대표적인 유적으로 신석기 시대부터 통일신라시대까지 이어지는 주거지이며 집자리 온돌유구, 토기편, 서기, 어망추 등이 출토되어 우리나라 해안지역 주민의 생활상을 연구하는데 중요한 자료를 제공하고 있다. 이 지역은 어디일까요?"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 오이도낙초"
+            android:id="@+id/btn_Quiz3_1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 소래산망주"
+            android:id="@+id/btn_Quiz3_2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 염전허사계"
+            android:id="@+id/btn_Quiz3_3"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 군자봉선풍"
+            android:id="@+id/btn_Quiz3_4"/>
+    </LinearLayout>
+
+</LinearLayout>

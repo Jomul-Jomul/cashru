@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img_Quiz2"
+            android:src="@drawable/quiz2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시흥시 생명농업기술센터 3층에 위치하고, 300여 년 전 갯벌을 간척해 만든 호조벌을 바라볼 수 있습니다. 연꽃테마파크에서는 낮에는 다양한 연꽃을 볼 수 있으며 밤에는 아름다운 별꼴을 볼 수 있습니다. 5m원형 돔 스크린을 갖춘 디지털 전체투영실이 있으며 500mm 주망원경으로 달, 행성, 성단, 성운, 은하 등 다양한 천체를 관측 할 수 있습니다. 이 장소는 어디일까요?"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_Quiz2"
+            android:paddingLeft="20dp"
+            android:background="@drawable/edittext_shadow"
+            android:textColorHint="#aaaaaa"
+            android:hint="ㅊㅁㄱ"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Quiz2"
+            android:text="정답 맞추기"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
