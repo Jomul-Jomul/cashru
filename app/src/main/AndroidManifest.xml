@@ -38,6 +38,8 @@
         <activity
             android:name=".Com"/>
         <activity android:name=".QRCode"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCy3yO1abDeCap6j0PHOXRdYetbW49fyT0"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
     </application>
 
 </manifest>
