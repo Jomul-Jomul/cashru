@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디/비밀번호 찾기"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:textSize="28dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아이디"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/signUpId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/signUpPassWd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="비밀번호 재확인"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/signUpOkPasswd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="닉네임"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/signUpNickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천인"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"/>
+            <EditText
+                android:id="@+id/signUpRecNick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="10dp">
+                <Button
+                    android:id="@+id/signUpOkButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="확인"/>
+
+                <Button
+                    android:id="@+id/signUpCancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="취소"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
