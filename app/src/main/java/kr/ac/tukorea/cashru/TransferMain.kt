@@ -1,41 +1,33 @@
 package kr.ac.tukorea.cashru
 
 import android.content.Intent
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.viewpager2.widget.ViewPager2
+import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayoutMediator
-import kotlinx.coroutines.Dispatchers.Main
 
-// import me.relex.circleindicator.CircleIndicator
-// import me.relex.circleindicator.CircleIndicator3
+class TransferMain : AppCompatActivity() {
+    lateinit var remainCash : TextView
+    lateinit var cashNum : String
+    var result : Int? = 3270
 
-
-class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-  //      val indicator: CircleIndicator3 = findViewById(R.id.indicator) 인디케이터
-        val view_pager: ViewPager2 = findViewById(R.id.view_pager)
-        val tabLayout: TabLayout = findViewById(R.id.tab_layout)
-        val pagerAdapter = ParentFragmentPagerAdapter(this)
+        setContentView(R.layout.activity_transfer_main)
+
+        remainCash = findViewById(R.id.RemainCash)
+
+        var btnChange = findViewById<Button>(R.id.btnChange)
+
         val bottomNavigation = findViewById<BottomNavigationView>(R.id.nav_view)
 
-        view_pager.adapter = pagerAdapter
-        view_pager.setAdapter(pagerAdapter)
+        remainCash.text = result.toString() + " 원"
 
-       /*
-        indicator.setViewPager(view_pager)
-        indicator.createIndicators(5,0);
-        indicator.animatePageSelected(2)
-*/
-
-        TabLayoutMediator(tabLayout, view_pager) { tab, position ->
-            val tabNames = listOf("홍보","축제","명소")
-            tab.text = tabNames[position]
-        }.attach()
+        btnChange.setOnClickListener {
+            var intent = Intent(this, TransferPointSend::class.java)
+            startActivity(intent)
+        }
 
         bottomNavigation.setOnNavigationItemSelectedListener {item ->
             when(item.itemId) {
@@ -63,5 +55,4 @@ class MainActivity : AppCompatActivity(){
             }
         }
     }
-
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827556209414",
+    "project_id": "cashru-a35dc",
+    "storage_bucket": "cashru-a35dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827556209414:android:d7a3c4288a7a12da607487",
+        "android_client_info": {
+          "package_name": "kr.ac.tukorea.cashru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827556209414-5gg4ruehi58lb15hl7aouhnhj1on55uf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJLHksW1JZ2DSPSVBddPWwyfcBY0kp1Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827556209414-5gg4ruehi58lb15hl7aouhnhj1on55uf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

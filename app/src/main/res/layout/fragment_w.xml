@@ -1,28 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".WFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#C6122000"
-        android:orientation="vertical"
-        android:paddingTop="8dp">
-        <ImageView
+        android:orientation="vertical">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/ic_launcher_foreground"/>
-        <ImageView
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="오이도 빨간등대"/>
+
+            <ImageView
+                android:id="@+id/red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/red"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/pic2"/>
-        <ImageView
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="어촌체험마을 조성사업의 일환으로 건립된 해양관광시설로 이제는 오이도를 상징하는 랜드마크가 되었습니다. 등대는 전망대로 이용되고 있으며, 등대에 올라 시원한 바닷바람을 맞으며 내려다 보는 탁 트인 서해의 모습은 가슴까지 시원하게 해줍니다"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/red_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/red_map"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n갯골생태공원"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/park"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/park"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="이곳 소래염전 지역은 1934~1936년에 조성되었으며 갯골을 중심으로 145만평 정도가 펼쳐져 있습니다. 당시 이곳 소래염전에서 생산되는 대부분의 소금은 수인선과 경부선 열차로 부산항에 옮겨진 후, 일본으로 반출되었던 우리민족사의 아픔을 간직한 곳이기도 합니다.\n
+시흥갯골생태공원은 경기도 유일의 내만 갯골과 옛 염전의 정취를 느낄 수 있는 아름다운 곳입니다.\n 칠면초, 나문재, 퉁퉁마디 등의 염생식물과 붉은발 농게, 방게 등 각종어류, 양서류가 서식하고 있어 자연 생태가 온전히 보존되어 있으며 시흥갯골은 2012년 2월 국가습지보호구역으로 지정되었습니다.\n
+시에서는 이곳을 친환경적 개발로 국가적 명소화, 세계적 관광지화를 목표로 조성하였으며 매년 ‘시흥갯골축제’가 열리는 장소이기도 합니다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/park_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/park_map"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n배곧 한울공원"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hanwolpark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hanwol"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="월곶포구부터 오이도 전까지 해안가를 배경으로 만들어진 배곧 한울공원은 ‘생명도시 시흥’이라는 정신 아래 ‘인간을 품은 도시’, ‘자연을 품은 도시’라는 목표에 부합되게 만들어졌습니다.\n
+헬렌켈러, 세종대왕, 라이트형제, 제임스 와트, 이순신장군, 베토벤의 여섯가지 테마의 볼거리를 제공합니다"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hanwolpark_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/hanwol_map"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

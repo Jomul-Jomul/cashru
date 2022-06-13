@@ -1,4 +1,4 @@
-package kr.ac.tukorea.cashru.main
+package kr.ac.tukorea.cashru
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity

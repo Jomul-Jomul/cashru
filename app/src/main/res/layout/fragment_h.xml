@@ -1,30 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:name="com.google.android.gms.maps.MapFragment"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".HFragment"
-    tools:ignore="SpeakableTextPresentCheck">
+    android:layout_height="wrap_content"
+    tools:context=".WFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#C6122000"
-        android:orientation="vertical"
-        android:paddingTop="8dp">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/img1"
-            android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/okggu" />
-
-        <ImageView
-            android:id="@+id/img2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/img1" />
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="홍플러 모집 홍보 포스터"/>
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="시는 2020년부터 시민 홍보자원을 발굴하고, 이를 통해 시흥시 도시브랜드 가치를 높이기 위해 시민 크리에이터 양성 교육과정을 운영하고 있다. 시는 규제가 완화되고 일상회복의 물꼬가 트인 만큼, 올해 진행될 시흥 크리에이터 3기 발굴 교육 과정은 대면교육을 통해 효과를 높인다는 계획이다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/map3"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n건축 문화상 홍보 포스터"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/park"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic2"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="문화가치가 우수한 건축물을 발굴하여 시흥시의 지속가능한 건축문화를 구축하고자 2022년 시흥시 건축문화상을 공고합니다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/map3"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n시흥 크리에이터 홍보 포스터"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pic3"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="만 19~34세 이하로 시흥시에 거주하거나 시흥시 소재의 직장 ․ 학교에 소속된 청년으로 축제에 관심 있는 청년이면 누구나 지원할 수 있으며 선발된 시흥청년축제 기획단은 6월부터 약 5개월간 활동하며, 오는 9월 청년의 날을 기념해 열리는 청년축제의 장인 시흥청년주간축제의 슬로건 및 운영 프로그램에 대한 아이디어 제안, 축제 기획 홍보 등의 활동에 나선다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hanwolpark_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/map3"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

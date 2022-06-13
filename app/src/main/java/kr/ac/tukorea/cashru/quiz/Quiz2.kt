@@ -1,9 +1,10 @@
-package kr.ac.tukorea.cashru
+package kr.ac.tukorea.cashru.quiz
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.quiz2.*
+import kr.ac.tukorea.cashru.R
 
 class Quiz2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

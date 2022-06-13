@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">cashru</string>
+    <string name="title_activity_main_fragment">MainFragment</string>
+    <string name="title_home">홈</string>
+    <string name="title_event">이벤트</string>
+    <string name="title_transfer">환전</string>
+    <string name="title_settings">설정</string>
+    <string name="btnlogout">로그아웃</string>
+    <string name="btncouponnum">등록</string>
+    <string name="btnmanual">이전</string>
 </resources>

@@ -3,20 +3,46 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/drawable/edittext_shadow.xml" value="0.1" />
         <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/com.xml" value="0.3609375" />
         <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/qrcode.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz.xml" value="0.23731884057971014" />
         <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz1.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz2.xml" value="0.2484375" />
-        <entry key="..\:/Users/RohHanYoung/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz3.xml" value="0.1" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/drawable/default_dot.xml" value="0.1" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_h.xml" value="0.23291139240506328" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_parent_pager_adapter.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_t.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/chanm/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_w.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2355" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/default_dot.xml" value="0.2355" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/edittext_shadow.xml" value="0.2355" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2185" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2185" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2355" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2185" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/drawable/selected_dot.xml" value="0.2355" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_main_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_transfer_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_transfer_point_send.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/activity_trasfer_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/cash_chagne.xml" value="0.228125" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/com.xml" value="0.1" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/coupon.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/event_page.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/findidpw.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_h.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_home.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_parent_pager_adapter.xml" value="0.33" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_t.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/fragment_w.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/log_in.xml" value="0.25" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/loginbinding.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/manual.xml" value="0.22698612862547288" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/option.xml" value="0.25" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/qrcode.xml" value="0.33" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz.xml" value="0.33" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz1.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz2.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/quiz3.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/signup.xml" value="0.25" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/layout/trasfer_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/hyuk9/AndroidStudioProjects/cashru/app/src/main/res/menu/bottom_nav_menu.xml" value="0.21145833333333333" />
       </map>
     </option>
   </component>

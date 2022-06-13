@@ -1,4 +1,4 @@
-package kr.ac.tukorea.cashru.main
+package kr.ac.tukorea.cashru
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import kr.ac.tukorea.cashru.R
 
-class TFragment : Fragment() {
+class WFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_t, container, false)
+        return inflater.inflate(R.layout.fragment_w, container, false)
     }
 }

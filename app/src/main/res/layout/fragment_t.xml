@@ -1,24 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".TFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#C6122000"
-        android:orientation="vertical"
-        android:paddingTop="8dp">
-        <ImageView
+        android:orientation="vertical">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/fest"/>
-        <ImageView
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="시흥 갯골 축제"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fest"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="292dp"
-            android:src="@drawable/fest1"/>
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="시흥갯골축제는 경기도 유일의 내만갯골에 위치한 시흥갯골생태공원에서 펼쳐지는 생태 축제로 옛 염전 터와 습지가 어우러진 천혜의 자연환경을 기반으로 자연에서 쉬고 배우며 즐기는 다양한 프로그램을 통해 자연과 동화되는 색다른 즐거움이 있는 축제로 생태공원의 자연환경을 보호하기 위해 차 없는 축제로 진행하고 있습니다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/festmap"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n시흥 바닷길 걷기 축제"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/searoad"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="시흥바닷길 걷기축제는 해안선을 따라 아름답게 조성된 배곧한울공원 수변 산책로와 오이도 바닷길을 걸으며 다양한 프로그램과 공연을 즐길 수 있는 걷기축제입니다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/searoadmap"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="\n연성 문화재"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/t3"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:text="연성문화제는 시흥시 승격 이전 금천문화제로 시작하여 1989년 시흥시가 시로 승격 하면서 처음 시민의 날 행사롤 시작된 우리 시흥시의 과러와 미래를 잇는 전통문화 축제입니다. 축제의 이름인 '연성'은 조선 전기의 명신 강희맹 선생이 관곡지에 연꽃을 심어 우리 지역에 널리 퍼지니 임금 세조가 우리 지역을 '연 꽃 고을'이라고 부르게 한 고사에서 유래하게 되었습니다."/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/t3map"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true"
+                />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
