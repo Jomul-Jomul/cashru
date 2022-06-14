@@ -18,24 +18,24 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".LockScreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".TransferPointSend"
             android:exported="false" />
         <activity
             android:name=".TransferMain"
             android:exported="false" />
-        <activity
-            android:name=".MainFragment"
-            android:exported="false"
-            android:label="@string/title_activity_main_fragment" />
+
         <activity
             android:name=".loginActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".EventPage" />
         <activity android:name=".signUpActivity" />
         <activity android:name=".quiz.Quiz" />
@@ -54,10 +54,10 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
         <activity android:name=".optionActivity" />
         <activity android:name=".manualActivity" />
         <activity android:name=".couponActivity" />
-
     </application>
 
 </manifest>
